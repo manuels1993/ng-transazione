@@ -1,0 +1,8 @@
+<h1>Transazioni</h1>
+<div style="width: 1000px; display: flex; flex-wrap: wrap">
+  <app-transazione-item
+    *ngFor="let t of transazioni"
+    [transazione]="t"
+    style="margin: 10px"
+  ></app-transazione-item>
+</div>

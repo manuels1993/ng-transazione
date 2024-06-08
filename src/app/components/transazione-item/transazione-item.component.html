@@ -1,0 +1,22 @@
+<div *ngIf="transazione" class="card" style="width: 18rem">
+  <ul class="list-group list-group-flush">
+    <li class="list-group-item">
+      <strong>{{ transazione.business }}</strong>
+    </li>
+    <li class="list-group-item">{{ transazione.name }}</li>
+    <li class="list-group-item">Account: {{ transazione.account }}</li>
+    <li class="list-group-item">Date: {{ transazione.date }}</li>
+    <li class="list-group-item">Type: {{ transazione.type }}</li>
+    <li class="list-group-item">Amount: {{ transazione.amount }}</li>
+  </ul>
+</div>
+
+<!-- <div class="card" style="width: 18rem;">
+    <div class="card-body">
+      <h5 class="card-title">Card title</h5>
+      <h6 class="card-subtitle mb-2 text-body-secondary">Card subtitle</h6>
+      <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+      <a href="#" class="card-link">Card link</a>
+      <a href="#" class="card-link">Another link</a>
+    </div>
+  </div> -->
